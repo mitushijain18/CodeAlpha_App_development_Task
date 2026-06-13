@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    background: #f4f6f9;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 750px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.theme-btn {
+    margin-bottom: 20px;
+}
+
+.quote-box {
+    background: white;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+    transition: 0.4s;
+}
+
+#quote {
+    font-size: 24px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    animation: fadeIn 0.5s ease;
+}
+
+#author {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+#counter {
+    margin-bottom: 20px;
+    color: gray;
+    font-size: 14px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.dark {
+    background: #121212;
+    color: white;
+}
+
+.dark .quote-box {
+    background: #1f1f1f;
+    color: white;
+}
+
+.dark #author {
+    color: #ddd;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media(max-width:600px) {
+    #quote {
+        font-size: 20px;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+    button {
+        width: 100%;
+    }
+}
