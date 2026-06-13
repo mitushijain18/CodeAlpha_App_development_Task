@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>✨ Random Quote Generator</h1>
+
+        <button class="theme-btn" onclick="toggleTheme()">
+            🌙 Toggle Theme
+        </button>
+
+        <div class="quote-box">
+
+            <p id="quote">Loading quote...</p>
+
+            <h3 id="author"></h3>
+
+            <p id="counter"></p>
+
+            <div class="buttons">
+
+                <button onclick="generateQuote()">
+                    🔄 New Quote
+                </button>
+
+                <button onclick="copyQuote()">
+                    📋 Copy Quote
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
