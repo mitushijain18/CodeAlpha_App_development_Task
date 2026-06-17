@@ -1,19 +1,20 @@
-# Flashcard Quiz App
+# Fitness Tracker App
 
 ## Project Overview
 
-The Flashcard Quiz App is an interactive learning application that helps users learn and revise concepts using digital flashcards and quizzes. The application allows users to view questions, reveal answers, attempt quizzes, and check their performance through an easy-to-use interface.
+The Fitness Tracker App is a health and fitness management application designed to help users monitor their daily activities, track workouts, and maintain a healthy lifestyle. The application allows users to record fitness-related information such as exercise routines, steps, calories, and progress.
 
-The main purpose of this project is to create an engaging educational tool that improves learning and revision through interactive methods.
+The main goal of this project is to provide a simple and interactive platform for users to track their fitness goals and improve their daily habits.
 
 ## Features
 
-* Interactive flashcards for learning
-* Question and answer display
-* Quiz-based learning system
-* Automatic score calculation
+* Track daily fitness activities
+* Record workout details
+* Monitor calories burned
+* Track steps and activity levels
+* Set fitness goals
+* View progress updates
 * User-friendly interface
-* Instant feedback on answers
 * Responsive design
 
 ## Technologies Used
@@ -24,11 +25,11 @@ The main purpose of this project is to create an engaging educational tool that 
 
 ## Working of the Application
 
-The application works by displaying flashcards containing questions and answers. Users can interact with the flashcards to reveal answers and test their knowledge through quizzes. The system evaluates user responses and displays the final score after completion.
+The Fitness Tracker App collects user fitness data and displays it in an organized manner. Users can enter their daily activities, workout details, and health information. The application processes the entered data and provides progress tracking to help users monitor their fitness journey.
 
 ## Project Structure
 
-Flashcard-Quiz-App
+Fitness-Tracker-App
 
 * index.html
 * style.css
@@ -41,33 +42,33 @@ Flashcard-Quiz-App
 1. Download or clone the repository.
 2. Open the project folder.
 3. Open the index.html file in a web browser.
-4. Start using the Flashcard Quiz App.
+4. Start using the Fitness Tracker App.
 
 ## Application Screenshots
 
 Screenshots of the following sections can be added:
 
-* Home page
-* Flashcard interface
-* Quiz section
-* Score/result page
+* Home dashboard
+* Activity tracking page
+* Workout section
+* Progress report section
 
 ## Future Enhancements
 
-* Adding user login functionality
-* Storing flashcards in a database
-* Adding multiple subjects and categories
-* Adding difficulty levels
-* Tracking user progress
-* Integrating AI-based flashcard generation
+* Add user authentication
+* Store fitness data using a database
+* Add health statistics and graphs
+* Integrate wearable device support
+* Add personalized workout recommendations
+* Add AI-based fitness suggestions
 
 ## Learning Outcomes
 
 * Learned frontend development concepts
 * Improved JavaScript programming skills
-* Implemented interactive UI elements
-* Developed quiz logic and scoring system
-* Understood the process of building an educational application
+* Implemented user activity tracking features
+* Developed interactive dashboard components
+* Understood the development of health and fitness applications
 
 ## Author
 
@@ -77,5 +78,4 @@ Mitushi Jain
 
 This project is created for educational purposes.
 
----
 
